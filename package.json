@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && nyc karma start --single-run"
+    "test": "xo && nyc ./node_modules/.bin/karma start --browsers Firefox --single-run"
   },
   "files": [
     "index.js"

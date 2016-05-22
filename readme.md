@@ -35,6 +35,10 @@ obj.method(['hello', 'world']);
 obj.anotherMethod(); // method is 'fooBar'
 ```
 
+## TODO
+
+- [ ] enable to instrument functions directly
+
 
 ## License
 

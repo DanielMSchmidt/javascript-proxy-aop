@@ -1,7 +1,7 @@
 {
   "name": "javascript-proxy-aop",
-  "version": "0.0.0",
-  "description": "My premium module",
+  "version": "0.0.1",
+  "description": "AOP in JS with proxies",
   "license": "MIT",
   "repository": "DanielMSchmidt/javascript-proxy-aop",
   "author": {

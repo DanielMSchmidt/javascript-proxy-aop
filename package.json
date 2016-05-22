@@ -1,0 +1,41 @@
+{
+  "name": "javascript-proxy-aop",
+  "version": "0.0.0",
+  "description": "My premium module",
+  "license": "MIT",
+  "repository": "DanielMSchmidt/javascript-proxy-aop",
+  "author": {
+    "name": "Daniel Schmidt",
+    "email": "dschmidt@weluse.de",
+    "url": "danielmschmidt.de"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && nyc karma start --single-run"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "bullet-pubsub": "^2.2.1",
+    "coveralls": "^2.11.9",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "nyc": "^6.4.0",
+    "xo": "^0.15.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}

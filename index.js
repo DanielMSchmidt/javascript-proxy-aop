@@ -31,4 +31,6 @@ module.exports = function (stream) {
 };
 
 // for browser usage and tests
-window.javascriptProxyAop = module.exports;
+try {
+	window.javascriptProxyAop = module.exports;
+} catch (e) {}
